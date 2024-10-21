@@ -1,3 +1,5 @@
+/* For Small Device */
+
 @media screen and (max-width:576px){
 
     .header{
@@ -76,5 +78,108 @@
 
     .footer-contact input[type="text"], input[type="email"]{
         width: 80%;
+    }
+}
+
+
+/* For Medium Device */
+
+@media screen and (min-width: 576.01px) and (max-width:992px) {
+    .header{
+        background-image: none;
+    }
+
+    nav{
+        flex-direction: row;
+        gap: 10px;
+        padding: 20px 50px;
+    }
+
+    nav > ul{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    nav li{
+        margin-right: 0;
+    }
+    .banner{
+        padding: 10px 10px 0px 10px;
+        flex-direction: column;
+    }
+
+    .banner-content{
+        padding: 50px;
+    }
+
+    .banner-text{
+        width: 90%;
+    }
+
+    .profile-pic{
+        width: 100%;
+    }
+    
+    .about{
+        padding: 10px;
+    }
+
+    .about-content{
+        width: 90%;
+    }
+
+    .about-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .info{
+        margin-bottom: 20px;
+    }
+
+    .what-i-do > p{
+        width: 90%;
+    }
+
+    .what-i-do-skill{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .resume-container{
+        flex-direction: column;
+    }
+
+    .resume-content{
+        width: 100%;
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    .footer-contact input[type="text"], input[type="email"]{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992.01px) and (max-width:1200px) {
+    .banner{
+        padding-left: 130px;
+    }
+
+    .banner-text{
+        width: 100%;
+    }
+
+    .about{
+        padding: 20px;
+    }
+
+    .what-i-do-skill{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
