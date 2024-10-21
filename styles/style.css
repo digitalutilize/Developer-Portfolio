@@ -24,6 +24,7 @@ section{
     font-weight: bold;
     padding: 15px 30px;
     border-radius: 5px;
+    margin: 5px;
     border: none;
 }
 
@@ -99,7 +100,8 @@ nav a{
 .banner-text{
     color: #757575;
     font-size: 18px;
-    width: 580px;
+    width: 60%;
+    margin-bottom: 20px;
 }
 
 .contact{
@@ -107,7 +109,6 @@ nav a{
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     margin-left: 15px;
-    margin-top: 20px;
 }
 
 .profile-pic{
