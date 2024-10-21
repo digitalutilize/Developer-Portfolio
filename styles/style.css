@@ -1,0 +1,268 @@
+/* Shared Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+section{
+    margin-top: 100px;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-primary i{
+    margin-right: 10px;
+}
+
+.subhead{
+    font-size: 35px;
+    font-weight: bold;
+}
+.content-primary{
+    font-size: 17px;
+    color:#757575;
+}
+
+
+/* Nav Related Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 0px;
+}
+
+nav h3{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* Header Banner Related Styles */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat no-repeat;
+    background-position: left center, bottom right;
+}
+
+.banner{
+    padding: 20px 20px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.banner-text{
+    color: #757575;
+    font-size: 18px;
+    width: 580px;
+}
+
+.contact{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.profile-pic{
+    width: 580px;
+}
+
+/* Main Related Styles */
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+/* About Me Section Styles */
+
+.about{
+    text-align: center;
+    padding: 140px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+.about-content{
+    margin: 30px 0;
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    font-size: 20px;
+}
+
+.info p{
+    color: #757575;
+}
+
+/* What I do Section Styles */
+
+.what-i-do{
+    text-align: center;
+}
+
+.what-i-do > p{
+    width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.what-i-do-skill{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+}
+
+.skill{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 0px 5px 0px #bdbdbd;
+    border-radius: 5px;
+}
+
+.skill h4{
+    margin: 15px 0;
+}
+
+
+/* Resume Section Styles */
+
+.resume{
+    text-align: center;
+}
+.resume-title{
+    margin-bottom: 100px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+}
+
+.resume-container hr{
+    width: 90%;
+    border: 1px solid #D1D1D1;
+}
+
+.education > h3, .experience > h3{
+    font-size: 30px;
+}
+
+.resume-content{
+    width: 70%;
+    margin: 30px 0;
+}
+
+.resume-content h4{
+    font-size: 20px;
+    color: #474747;
+}
+
+.resume-content h5{
+    color: #757575;
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-btn{
+    margin-top: 20px;
+}
+
+/* Footer Section Styles */
+
+.footer{
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 200px 0;
+}
+
+.footer-container{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-content p{
+    margin: 30px 0;
+    width: 90%;
+}
+
+.footer-social{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-social a{
+    text-decoration: none;
+}
+
+.footer-contact input[type="text"], input[type="email"] {
+    display: block;
+    margin:20px 0px;
+    width: 50%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-message{
+    height: 100px;
+}
+
